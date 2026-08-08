@@ -136,5 +136,3 @@ end
   assign pslverr = (psel && penable) ? (addv_err || addr_err || data_err) : 1'b0;
 
 endmodule
-
-interface 
